@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SymmetricMatrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
+        System.out.println("enter the size of the matrix");
         int n = sc.nextInt(); // Read matrix size (assuming square matrix)
         int[][] matrix = new int[n][n];
 
